@@ -11,11 +11,11 @@
   <a href="mailto:ykyuvrajkashyap@gmail.com"><strong>Email</strong></a>
 </p>
 
-I do not enjoy stopping at the prototype. Once the main idea works, I want to know what happens when a worker dies, an index goes down, data changes, or a user opens the page on a phone. I want a benchmark for search quality, a recovery path for queued work, and a clear answer about which claims a demo can actually support.
+I am a Computer Science student at UT Dallas who likes turning interesting technical ideas into products people can explore and systems other engineers can understand.
 
-I build in Python and TypeScript, and I will follow a feature through the data model, API, interface, deployment, tests, and documentation.
+I work across Python and TypeScript and enjoy following a feature through the data model, API, interface, deployment, tests, and documentation. I am happiest on small, ambitious teams where people move quickly, ask good questions, and care about the details without making the process heavier than it needs to be.
 
-## Proof at a glance
+## A few concrete results
 
 - Evaluated four retrieval modes across **300 BEIR SciFact queries** in [Aletheia](https://github.com/YuvrajKashyap/aletheia); hybrid retrieval reached **0.8429 Recall@10** with zero failed queries.
 - Built Atlas around recoverable work, idempotent stages, and durable indexing; its backend has **69 passing tests** and **91.03% coverage**.
@@ -40,7 +40,7 @@ The public site is generated from real full-stack runs. It exposes traces, evalu
 
 ### [Atlas](https://github.com/YuvrajKashyap/atlas) | Durable web crawl and search platform
 
-Atlas treats PostgreSQL as the authoritative record for crawl runs, leases, stage tasks, versions, and incidents. Redis wakes workers but never decides whether work exists. Fetch, extract, and index are separate idempotent stages, while a durable outbox keeps an OpenSearch outage from repeating network fetches.
+Atlas keeps crawl runs, leases, stage tasks, versions, and incidents in PostgreSQL. Redis helps workers pick up work, while fetch, extract, and index remain separate idempotent stages. A durable outbox lets indexing recover cleanly after an OpenSearch outage without repeating the network fetch.
 
 The repository includes an operator console, threat model, service objectives, architecture decisions, runbooks, Terraform, CodeQL, container scanning, SBOM generation, and an explicit runtime status contract.
 
@@ -99,7 +99,10 @@ Under the visual idea are time-derived state, user-scoped data with row-level se
 - **VP of Finance and Project Team Lead, Consult Your Community:** Leading client work across product operations, financial strategy, go-to-market planning, and delivery; built a web gaming hub prototype for a hardware client.
 - **Systems and Electrical Engineer, NOVA Autonomous Driving:** Built Python preprocessing for 3D sensor data and worked on dual battery banks, high-voltage lines, and vehicle I/O systems.
 - **Peer Advisor, UT Dallas University Housing:** Primary point of contact for more than 120 residents.
-- **Former NCAA Division II tennis player.**
+
+## A bit about me
+
+I grew up in Saudi Arabia and Texas, and competitive tennis was a big part of my life, including time as an NCAA Division II player. I still play whenever I can. I also study finance and entrepreneurship alongside computer science because I enjoy the product and business side of building, too.
 
 ## What I work with
 
@@ -113,7 +116,7 @@ Under the visual idea are time-derived state, user-scoped data with row-level se
 
 I am looking for software engineering, ML systems, platform, developer tools, and product engineering opportunities.
 
-If any of the work above maps to a problem your team is solving, email me. I am happy to walk through the code, the decisions, and what I would change next.
+I would love to join a small team where I can learn quickly, take real ownership, and help turn rough ideas into software people enjoy using. If anything here overlaps with what you are building, email me. I am always happy to talk through the work.
 
 <p align="center">
   <a href="mailto:ykyuvrajkashyap@gmail.com"><strong>Email me</strong></a> &nbsp;|&nbsp;
