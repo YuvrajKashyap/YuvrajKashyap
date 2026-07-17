@@ -19,7 +19,7 @@ I build in Python and TypeScript, and I will follow a feature through the data m
 
 - Evaluated four retrieval modes across **300 BEIR SciFact queries** in [Aletheia](https://github.com/YuvrajKashyap/aletheia); hybrid retrieval reached **0.8429 Recall@10** with zero failed queries.
 - Built Atlas around recoverable work, idempotent stages, and durable indexing; its backend has **69 passing tests** and **91.03% coverage**.
-- Turned **1,553 OpenStreetMap building footprints** into a reproducible Dallas geometry model with **93.33% sampled visibility coverage** and a **4.99 km A* route**.
+- Turned **1,553 OpenStreetMap building footprints** into a reproducible Dallas geometry model with **93.33% sampled visibility coverage** and a **4.99 km A-star route**.
 - Reduced a NOVA autonomous vehicle point cloud from **370,277 to 20,528 points** while preserving its geometry, then worked on the vehicle's primary and secondary power systems.
 
 ## Featured engineering work
