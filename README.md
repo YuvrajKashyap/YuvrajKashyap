@@ -1,84 +1,122 @@
 <h1 align="center">Yuvraj Kashyap</h1>
 
-<p align="center"><strong>Software builder working across AI systems, product engineering, and autonomous systems</strong></p>
+<p align="center"><strong>Software engineer building search, distributed, spatial, and product systems.</strong></p>
+
+<p align="center">Computer Science at UT Dallas | Class of 2027 | Open to software engineering opportunities</p>
 
 <p align="center">
-  <a href="https://yuvrajkashyap.com">Portfolio</a> ·
-  <a href="https://yuvrajkashyap.com/media/resume/yuvraj-kashyap-resume.pdf">Resume</a> ·
-  <a href="https://www.linkedin.com/in/yuvraj-kashyap">LinkedIn</a> ·
-  <a href="mailto:ykyuvrajkashyap@gmail.com">Email</a>
+  <a href="https://yuvrajkashyap.com"><strong>Portfolio</strong></a> &nbsp;|&nbsp;
+  <a href="https://yuvrajkashyap.com/media/resume/yuvraj-kashyap-resume.pdf"><strong>Resume</strong></a> &nbsp;|&nbsp;
+  <a href="https://www.linkedin.com/in/yuvraj-kashyap"><strong>LinkedIn</strong></a> &nbsp;|&nbsp;
+  <a href="mailto:ykyuvrajkashyap@gmail.com"><strong>Email</strong></a>
 </p>
 
-I am a Computer Science student at the University of Texas at Dallas, where I also study finance and entrepreneurship. I like turning difficult technical ideas into systems people can inspect, test, and actually use—from retrieval infrastructure and distributed crawlers to spatial simulations and polished full-stack products.
+I do not enjoy stopping at the prototype. Once the main idea works, I want to know what happens when a worker dies, an index goes down, data changes, or a user opens the page on a phone. I want a benchmark for search quality, a recovery path for queued work, and a clear answer about which claims a demo can actually support.
 
-My best work sits at the intersection of **strong engineering**, **clear product thinking**, and **honest evidence**. I care about reproducible experiments, observable systems, intentional interfaces, and claims that the code can support.
+I build in Python and TypeScript, and I will follow a feature through the data model, API, interface, deployment, tests, and documentation.
 
-## Selected work
+## Proof at a glance
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/aletheia">Aletheia</a></h3>
-<p>Production-style hybrid retrieval platform with reranking, evaluation loops, and search observability.</p>
-<p><code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code></p>
-<p><a href="https://github.com/YuvrajKashyap/aletheia">Repository</a> · <a href="https://aletheia-jade.vercel.app">Live system</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/atlas">Atlas</a></h3>
-<p>Distributed crawl, extraction, versioning, indexing, and search system with an on-demand AWS runtime.</p>
-<p><code>Python</code> <code>FastAPI</code> <code>OpenSearch</code> <code>AWS</code> <code>Terraform</code></p>
-<p><a href="https://github.com/YuvrajKashyap/atlas">Repository</a> · <a href="https://atlas.yuvrajkashyap.com">Live system</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/Beyond-Chat">Beyond Chat</a></h3>
-<p>Organization-first agent workspace for governed execution, connected knowledge, and durable reviewable outputs.</p>
-<p><code>TypeScript</code> <code>React</code> <code>FastAPI</code> <code>Supabase</code> <code>WorkOS</code></p>
-<p><a href="https://github.com/YuvrajKashyap/Beyond-Chat">Repository</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/sticky">Sticky</a></h3>
-<p>Connected task command center with recurring work, reminders, realtime sync, and an agent-ready API.</p>
-<p><code>Next.js</code> <code>Hono</code> <code>Supabase</code> <code>Playwright</code> <code>MCP</code></p>
-<p><a href="https://github.com/YuvrajKashyap/sticky">Repository</a> · <a href="https://sticky.yuvrajkashyap.com">Live app</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/dallas-3d-city-model">Dallas 3D Urban Geometry Lab</a></h3>
-<p>Reproducible LOD1 city model with explicit height provenance, sampled visibility coverage, and A* path experiments.</p>
-<p><code>Python</code> <code>GeoPandas</code> <code>Shapely</code> <code>Blender</code> <code>Pytest</code></p>
-<p><a href="https://github.com/YuvrajKashyap/dallas-3d-city-model">Repository</a> · <a href="https://yuvrajkashyap.com/projects/dallas-3d-city-model">Project dossier</a></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/YuvrajKashyap/Axis">Axis</a></h3>
-<p>Spatial personal alignment system for seeing drift, choosing the next move, and returning to action.</p>
-<p><code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Supabase</code></p>
-<p><a href="https://github.com/YuvrajKashyap/Axis">Repository</a> · <a href="https://axis.yuvrajkashyap.com">Live app</a></p>
-</td>
-</tr>
-</table>
+- Evaluated four retrieval modes across **300 BEIR SciFact queries** in [Aletheia](https://github.com/YuvrajKashyap/aletheia); hybrid retrieval reached **0.8429 Recall@10** with zero failed queries.
+- Built Atlas around recoverable work, idempotent stages, and durable indexing; its backend has **69 passing tests** and **91.03% coverage**.
+- Turned **1,553 OpenStreetMap building footprints** into a reproducible Dallas geometry model with **93.33% sampled visibility coverage** and a **4.99 km A* route**.
+- Reduced a NOVA autonomous vehicle point cloud from **370,277 to 20,528 points** while preserving its geometry, then worked on the vehicle's primary and secondary power systems.
 
-More work: [Arcade](https://github.com/YuvrajKashyap/arcade) · [Capital case study](https://github.com/YuvrajKashyap/capital-case-study) · [Personal website](https://github.com/YuvrajKashyap/personal-website)
+## Featured engineering work
+
+### [Aletheia](https://github.com/YuvrajKashyap/aletheia) | Search infrastructure, ranking, and evaluation
+
+<a href="https://aletheia.yuvrajkashyap.com">
+  <img src="https://raw.githubusercontent.com/YuvrajKashyap/aletheia/main/docs/assets/screenshots/overview.png" alt="Aletheia search and evaluation dashboard" width="100%" />
+</a>
+
+Aletheia compares BM25, dense, hybrid, and cross-encoder reranked retrieval over a real benchmark corpus. The full stack includes OpenSearch, Qdrant, PostgreSQL, Redis workers, explicit index versions, query traces, experiment comparison, replay, and system health.
+
+The public site is generated from real full-stack runs. It exposes traces, evaluations, index metadata, and corpus records without running the full search cluster around the clock.
+
+[`Live demo`](https://aletheia.yuvrajkashyap.com) [`Source`](https://github.com/YuvrajKashyap/aletheia) [`Benchmark`](https://github.com/YuvrajKashyap/aletheia/blob/main/docs/benchmark-results.md) [`Architecture`](https://github.com/YuvrajKashyap/aletheia/blob/main/docs/architecture.md)
+
+`Python` `FastAPI` `PostgreSQL` `Redis/RQ` `OpenSearch` `Qdrant` `Next.js`
+
+### [Atlas](https://github.com/YuvrajKashyap/atlas) | Durable web crawl and search platform
+
+Atlas treats PostgreSQL as the authoritative record for crawl runs, leases, stage tasks, versions, and incidents. Redis wakes workers but never decides whether work exists. Fetch, extract, and index are separate idempotent stages, while a durable outbox keeps an OpenSearch outage from repeating network fetches.
+
+The repository includes an operator console, threat model, service objectives, architecture decisions, runbooks, Terraform, CodeQL, container scanning, SBOM generation, and an explicit runtime status contract.
+
+[`Project record`](https://atlas-rho-brown.vercel.app) [`Source`](https://github.com/YuvrajKashyap/atlas) [`Threat model`](https://github.com/YuvrajKashyap/atlas/blob/main/docs/threat-model.md) [`Runbooks`](https://github.com/YuvrajKashyap/atlas/tree/main/docs/runbooks)
+
+`Python` `FastAPI` `PostgreSQL` `Redis/RQ` `OpenSearch` `AWS` `Terraform`
+
+### [Dallas 3D Urban Geometry Lab](https://github.com/YuvrajKashyap/dallas-3d-city-model) | Geospatial modeling and path planning
+
+<a href="https://github.com/YuvrajKashyap/dallas-3d-city-model">
+  <img src="https://raw.githubusercontent.com/YuvrajKashyap/dallas-3d-city-model/main/screenshots/portfolio-hero.png" alt="Downtown Dallas 3D model with a planned route and visibility observers" width="100%" />
+</a>
+
+This pipeline converts OpenStreetMap footprints into a traceable LOD1-style city model. It records the source and confidence of every building height, works in the correct UTM projection, runs 2.5D line-of-sight coverage, and plans fixed-altitude routes around obstacles.
+
+I report the results as geometry experiments, not real flight guidance. The repository includes methodology, provenance, unit tests, processed outputs, an inspectable Blender scene, and final renders.
+
+[`Source`](https://github.com/YuvrajKashyap/dallas-3d-city-model) [`Methodology`](https://github.com/YuvrajKashyap/dallas-3d-city-model/blob/main/docs/METHODOLOGY.md) [`Project dossier`](https://yuvrajkashyap.com/projects/dallas-3d-city-model)
+
+`Python` `GeoPandas` `Shapely` `Blender` `Pytest`
+
+### [Sticky](https://github.com/YuvrajKashyap/sticky) | Private task platform with durable workflows
+
+Sticky is the task system I use. It combines fast capture, recurring work, reminders, calendar planning, realtime sync, and an agent-facing API in one installable web app.
+
+Browser writes pass through a versioned Hono API. Postgres writes and outbox events commit together. Realtime events invalidate client caches. Private tables live behind owner-scoped row-level security, and integration credentials stay encrypted on the server. The production app remains allow-listed because it contains personal data; the repository starts with a sanitized local demo.
+
+[`Source and demo instructions`](https://github.com/YuvrajKashyap/sticky) [`Architecture`](https://github.com/YuvrajKashyap/sticky/blob/main/docs/connected-platform.md)
+
+`Next.js` `TypeScript` `Hono` `Supabase` `PostgreSQL` `Realtime` `MCP`
+
+### [Axis](https://github.com/YuvrajKashyap/Axis) | A spatial interface for personal alignment
+
+<a href="https://axis.yuvrajkashyap.com">
+  <img src="https://raw.githubusercontent.com/YuvrajKashyap/Axis/main/public/showcase/axis-orrery.png" alt="Axis orrery interface showing life domains as planets" width="100%" />
+</a>
+
+Axis replaces the usual productivity dashboard with an orrery. Domains drift outward when they need attention, commitments pull them back into orbit, and a guided reset helps choose the next concrete action.
+
+Under the visual idea are time-derived state, user-scoped data with row-level security, signed QStash callbacks, stale-notification checks, responsive drag and keyboard interaction, and a read-only public fallback.
+
+[`Live demo`](https://axis.yuvrajkashyap.com) [`Source`](https://github.com/YuvrajKashyap/Axis) [`Case study`](https://github.com/YuvrajKashyap/Axis/blob/main/docs/CASE_STUDY.md)
+
+`Next.js` `React` `TypeScript` `Supabase` `PostgreSQL` `QStash` `Resend`
+
+## More product work
+
+- **[Beyond Chat](https://github.com/YuvrajKashyap/Beyond-Chat):** Collaborative AI workspace organized around durable artifacts and dedicated writing, research, image, data, and finance studios. I have more than 80 authored commits in the shared repository.
+- **[Arcade](https://github.com/YuvrajKashyap/arcade):** Personal arcade platform built with Next.js.
+- **[Capital case study](https://github.com/YuvrajKashyap/capital-case-study):** Public product and engineering record for a private finance application, separated so the real app and its data remain protected.
+- **[Personal website](https://github.com/YuvrajKashyap/personal-website):** The source behind [yuvrajkashyap.com](https://yuvrajkashyap.com), including the project archive, experience record, and portfolio interface.
+
+## Experience beyond personal projects
+
+- **Undergraduate Researcher, UT Dallas:** Building UAV and smart-city simulation work over a 4 km by 4 km OpenStreetMap and Blender environment, with multi-agent path planning, occlusion, visibility, and sensing constraints.
+- **VP of Finance and Project Team Lead, Consult Your Community:** Leading client work across product operations, financial strategy, go-to-market planning, and delivery; built a web gaming hub prototype for a hardware client.
+- **Systems and Electrical Engineer, NOVA Autonomous Driving:** Built Python preprocessing for 3D sensor data and worked on dual battery banks, high-voltage lines, and vehicle I/O systems.
+- **Peer Advisor, UT Dallas University Housing:** Primary point of contact for more than 120 residents.
+- **Former NCAA Division II tennis player.**
 
 ## What I work with
 
-- **AI, search, and data:** Python, FastAPI, PostgreSQL, Redis, retrieval and reranking, evaluation, observability
-- **Product systems:** TypeScript, React, Next.js, Supabase, API design, realtime applications, interaction design
-- **Spatial and autonomous systems:** OpenStreetMap, GeoPandas, Shapely, Blender, point clouds, visibility, path planning
-- **Infrastructure and quality:** AWS, Terraform, Docker, GitHub Actions, Pytest, Playwright
+- **Languages:** Python, TypeScript, JavaScript, SQL
+- **Backend and data:** FastAPI, Hono, PostgreSQL, Supabase, Redis, OpenSearch, Qdrant
+- **Frontend:** React, Next.js, Vite, realtime interfaces, responsive interaction design
+- **Infrastructure and quality:** AWS, Terraform, Docker, GitHub Actions, Pytest, Playwright, Ruff
+- **Spatial and autonomy:** OpenStreetMap, GeoPandas, Shapely, Blender, point clouds, visibility, path planning
 
-## Beyond the repository
+## Let's talk
 
-- Undergraduate researcher working on UAV and smart-city systems at UT Dallas
-- Former systems and electrical engineer with NOVA Autonomous Driving
-- VP of Finance and Project Team Lead with Consult Your Community
-- Former NCAA Division II tennis player; still wired for repetition, pressure, and honest feedback
+I am looking for software engineering, ML systems, platform, developer tools, and product engineering opportunities.
 
-I am always interested in ambitious software engineering, AI/search, autonomous-systems, and early-stage product work.
+If any of the work above maps to a problem your team is solving, email me. I am happy to walk through the code, the decisions, and what I would change next.
 
 <p align="center">
-  <a href="https://yuvrajkashyap.com">Explore the full portfolio</a> ·
-  <a href="mailto:ykyuvrajkashyap@gmail.com">Start a conversation</a>
+  <a href="mailto:ykyuvrajkashyap@gmail.com"><strong>Email me</strong></a> &nbsp;|&nbsp;
+  <a href="https://yuvrajkashyap.com"><strong>See the full portfolio</strong></a> &nbsp;|&nbsp;
+  <a href="https://yuvrajkashyap.com/media/resume/yuvraj-kashyap-resume.pdf"><strong>Read my resume</strong></a>
 </p>
