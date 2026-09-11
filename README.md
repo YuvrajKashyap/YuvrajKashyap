@@ -69,7 +69,7 @@ The release gate includes unit and API tests, client/server secret audits, and *
 
 ## Experience
 
-- **Software Engineering Intern, IDK Studios / Medceptor:** I ship product and backend features for an AI-driven medical-education platform using Next.js, TypeScript, Django, and Supabase/Postgres.
+- **Software Engineering Intern, IDK Studios / Medceptor (Apr 2026 to Aug 2026):** I shipped product and backend features for an AI-driven medical-education platform using Next.js, TypeScript, Django, and Supabase/Postgres.
 - **Undergraduate Researcher, UT Dallas:** I work on UAV and smart-city simulation across multi-agent path planning, urban geometry, occlusion, visibility, and sensing constraints.
 - **Systems & Electrical Engineer, NOVA Autonomous Driving:** I built Python point-cloud preprocessing and worked on dual battery banks, high-voltage lines, and vehicle I/O systems.
 
