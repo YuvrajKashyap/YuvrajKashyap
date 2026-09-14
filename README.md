@@ -69,13 +69,16 @@ The release gate includes unit and API tests, client/server secret audits, and *
 
 ## Experience
 
-- **Software Engineering Intern, IDK Studios / Medceptor (Apr 2026 to Aug 2026):** I shipped product and backend features for an AI-driven medical-education platform using Next.js, TypeScript, Django, and Supabase/Postgres.
+- **Software Engineering Intern, IDK Studios / Medceptor (Apr 2026 to Aug 2026)** I enabled CNA/LPN market expansion by shipping 14+ PRs for core question-bank and exam workflows used by paying, recurring users. I built question filtering, import validation, scoring, and review flows with Next.js, TypeScript, Django, and Supabase/Postgres.
 - **Undergraduate Researcher, UT Dallas:** I work on UAV and smart-city simulation across multi-agent path planning, urban geometry, occlusion, visibility, and sensing constraints.
-- **Systems & Electrical Engineer, NOVA Autonomous Driving:** I built Python point-cloud preprocessing and worked on dual battery banks, high-voltage lines, and vehicle I/O systems.
+- **Software Research Assistant, NOVA Autonomous Driving** I built Python preprocessing pipelines that reduced point clouds from 370,277 to 20,528 points while preserving geometry, and debugged sensor and I/O reliability across vehicle subsystems.
+- **Vice President of Finance & Senior Consultant, Consult Your Community** I built Glydr's web-based gaming hub prototype, translating client requirements into a working product and owning technical deliverables from scoping through final handoff.
 
 ## More of my work
 
 [Beyond Chat](https://github.com/YuvrajKashyap/Beyond-Chat) · [Answer Map](https://github.com/YuvrajKashyap/answer-map) · [Dallas 3D](https://github.com/YuvrajKashyap/dallas-3d-city-model) · [Axis](https://github.com/YuvrajKashyap/Axis) · [Capital case study](https://github.com/YuvrajKashyap/capital-case-study) · [Full project archive](https://yuvrajkashyap.com/#projects)
+
+Try the [Beyond Chat live prototype](https://beyond-chat-production.vercel.app/). Early access is limited while the product is being rebuilt.
 
 ## What I work with
 
