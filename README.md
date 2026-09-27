@@ -69,7 +69,6 @@ The release gate includes unit and API tests, client/server secret audits, and *
 
 ## Experience
 
-- **Incoming Software Engineering Intern, Base Power · Austin, TX**
 - **Software Engineering Intern, Medceptor (Apr 2026 to Aug 2026)** I enabled CNA/LPN market expansion by shipping 14+ PRs for core question-bank and exam workflows used by paying, recurring users. I built question filtering, import validation, scoring, and review flows with Next.js, TypeScript, Django, and Supabase/Postgres.
 - **Undergraduate Researcher, UT Dallas:** I work on UAV and smart-city simulation across multi-agent path planning, urban geometry, occlusion, visibility, and sensing constraints.
 - **Software Research Assistant, NOVA Autonomous Driving** I built Python preprocessing pipelines that reduced point clouds from 370,277 to 20,528 points while preserving geometry, and debugged sensor and I/O reliability across vehicle subsystems.
