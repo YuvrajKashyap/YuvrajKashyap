@@ -20,19 +20,19 @@ Recently, I've been building [**LegacyDiff**](https://github.com/YuvrajKashyap/l
 
 **Software Engineering Intern · Medceptor · Apr–Aug 2026**
 
-I shipped 14+ PRs for question-bank and exam workflows used by paying customers, helping expand the product into CNA/LPN exam preparation. My work covered question filtering, import validation, scoring, and review flows across Next.js, TypeScript, Django, and Postgres.
+On a five-person engineering team, I took question-bank and exam features from loosely defined requirements to production for a platform serving **1,800+ paying users**, helping expand into CNA/LPN exam preparation. I cut import and validation time for a 100-question batch from **70 to 15 minutes** and built filtering, scoring, and review workflows with Next.js, TypeScript, Django, and Postgres.
 
 **Undergraduate Researcher · UT Dallas · Oct 2025–present**
 
-I work on UAV and smart-city simulation, combining urban geometry with multi-agent path planning, visibility, occlusion, and sensing constraints.
+I build reproducible UAV simulations using real city geometry. Across **1,553 Dallas building footprints**, my Python line-of-sight analysis and greedy set-cover approach reduced required observer positions from **11 to six** while maintaining **93.3% coverage of 240 simulated targets**. I also implemented altitude-aware A* planning in a 4 km × 4 km urban environment, producing a 4.99 km route around obstacles.
 
 **Engineering Lead & Senior Consultant · Consult Your Community · Jan 2026–present**
 
-I translated Glydr's client requirements into a web-based gaming hub prototype and led the technical work from scoping through final handoff.
+I led delivery of Glydr's gaming hub from client requirements through handoff, securing client adoption and reaching **1,500+ users**. Through asset and query optimization, caching, and fewer redundant requests and rerenders, I reduced page-load time from **3.9 to 1.4 seconds**, API response time from **610 to 220 ms**, and interaction delay from **280 to 110 ms**.
 
 **Software Research Assistant · NOVA Autonomous Driving · Sep 2023–Aug 2025**
 
-I built Python preprocessing pipelines that reduced a point cloud from 370,277 to 20,528 points while preserving its geometry. I also worked on sensor and I/O reliability across the vehicle's subsystems.
+I built Python voxel-grid preprocessing that reduced 3D sensor scans by **94.5%, from 370,277 to 20,528 points**, while preserving geometric structure. I also debugged power, sensor, and I/O reliability across the autonomous vehicle, translating hardware constraints into software and systems fixes for perception reliability.
 
 ## Selected projects
 
