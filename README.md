@@ -2,8 +2,6 @@
 
 # Yuvraj Kashyap
 
-**I build search systems, backend infrastructure, computer vision, and full-stack AI products.**
-
 Computer Science at UT Dallas · graduating May 2027 · Dallas, Texas
 
 **Incoming SWE Intern @ Base Power · Open to new-grad SWE roles**
@@ -12,15 +10,13 @@ Computer Science at UT Dallas · graduating May 2027 · Dallas, Texas
 
 </div>
 
-Hey, I'm Yuvraj. I work mostly in Python and TypeScript, building everything from search backends to the interfaces people use to explore them. I like projects where I can work through the whole problem, from the data model to the finished product.
+Hey, I'm Yuvraj. I study computer science, finance, and entrepreneurship at UT Dallas. I like figuring out how things work, building something useful from that understanding, and getting it into people's hands. My work spans software products, research, and client projects, and I'm happy to learn a new field when the problem is worth working on.
 
 Recently, I've been building [**LegacyDiff**](https://github.com/YuvrajKashyap/legacydiff), which compares old and rewritten software on the same inputs, and [**WorldState**](https://github.com/YuvrajKashyap/worldstate), which gives a physical workspace persistent, searchable visual memory.
 
 ## Experience
 
 **Incoming Software Engineering Intern · Base Power**
-
-Joining Base Power's engineering team.
 
 **Software Engineering Intern · Medceptor · Apr–Aug 2026**
 
@@ -38,16 +34,12 @@ I translated Glydr's client requirements into a web-based gaming hub prototype a
 
 I built Python preprocessing pipelines that reduced a point cloud from 370,277 to 20,528 points while preserving its geometry. I also worked on sensor and I/O reliability across the vehicle's subsystems.
 
-| **0.8429 Recall@10** | **10,000 pages** | **11.2 FPS** | **370K → 20.5K points** |
-| :---: | :---: | :---: | :---: |
-| Aletheia hybrid retrieval | Atlas failure benchmark | Vision Lock local run | NOVA point-cloud reduction |
+## Selected projects
 
 <p align="center">
   <a href="https://aletheia.yuvrajkashyap.com"><img src="https://raw.githubusercontent.com/YuvrajKashyap/aletheia/main/docs/assets/screenshots/overview.png" width="49%" alt="Aletheia search and evaluation dashboard" /></a>
   <a href="https://visionlock.yuvrajkashyap.com"><img src="https://raw.githubusercontent.com/YuvrajKashyap/vision-lock/main/screenshots/portfolio-hero.png" width="49%" alt="Vision Lock tracking several objects in a local vision run" /></a>
 </p>
-
-## A few things I've built
 
 ### [LegacyDiff](https://github.com/YuvrajKashyap/legacydiff) · Reviewing software rewrites
 
@@ -71,7 +63,7 @@ Across 5,183 documents and 300 benchmark queries, hybrid RRF reached **0.8429 Re
 
 Atlas came from wanting to build a crawler that would not fall apart as soon as a worker died or OpenSearch went down. PostgreSQL keeps the real state, fetch, extract, and index are separate idempotent stages, and a durable outbox makes indexing recoverable without repeating the network fetch.
 
-Its checked **10,000-page fault benchmark** passed every published release check. The repository also includes an operator console, runbooks, a threat model, AWS/Terraform infrastructure, CodeQL, container scanning, and SBOM generation.
+Its **10,000-page fault benchmark** passed the published release checks. The repository includes an operator console, recovery runbooks, and AWS/Terraform infrastructure.
 
 [Project record](https://atlas.yuvrajkashyap.com) · [Source](https://github.com/YuvrajKashyap/atlas) · [Benchmark](https://github.com/YuvrajKashyap/atlas/blob/main/docs/benchmark.md) · [Runbooks](https://github.com/YuvrajKashyap/atlas/tree/main/docs/runbooks)
 
@@ -109,11 +101,11 @@ Try the [Beyond Chat live prototype](https://beyond-chat-production.vercel.app/)
 - **Backend and data:** FastAPI, Node.js, PostgreSQL, Supabase, Redis, OpenSearch, Qdrant
 - **Product and infrastructure:** React, Next.js, PyTorch, OpenCV, AWS, Terraform, Docker, GitHub Actions
 
-I also study finance and entrepreneurship. I played competitive tennis for most of my life, including at the NCAA Division II level, and I still get on court when I can.
+Away from the keyboard, I've played competitive tennis for most of my life, including at the NCAA Division II level. I still get on court when I can.
 
 ## Say hi
 
-I'm graduating in May 2027 and open to new-grad software engineering roles. If my work looks relevant to your team, I'd be happy to talk. You can reach me by email below.
+I'm graduating in May 2027 and open to opportunities across industries. I'm interested in work where I can build, learn from people who know their craft, and contribute to the product and business as well as the technology. If you think we'd work well together, I'd be happy to hear from you.
 
 <div align="center">
 
