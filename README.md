@@ -6,15 +6,37 @@
 
 Computer Science at UT Dallas · graduating May 2027 · Dallas, Texas
 
-**Looking for software engineering roles.**
+**Incoming Software Engineering Intern at Base Power · Open to new-grad SWE roles**
 
 [**Portfolio**](https://yuvrajkashyap.com) · [**Resume**](https://yuvrajkashyap.com/media/resume/yuvraj-kashyap-resume.pdf) · [**LinkedIn**](https://www.linkedin.com/in/yuvraj-kashyap) · [**Email**](mailto:ykyuvrajkashyap@gmail.com)
 
 </div>
 
-Hey, I'm Yuvraj. I like turning interesting technical ideas into products people can explore and systems other engineers can understand. I work mostly in Python and TypeScript, and I enjoy following a feature through the data model, API, interface, deployment, tests, and documentation.
+Hey, I'm Yuvraj. I work mostly in Python and TypeScript, building everything from search backends to the interfaces people use to explore them. I like projects where I can work through the whole problem, from the data model to the finished product.
 
-Right now, I'm building [**WorldState**](https://github.com/YuvrajKashyap/worldstate), which turns webcam or phone video into a persistent, queryable model of a physical space.
+Recently, I've been building [**LegacyDiff**](https://github.com/YuvrajKashyap/legacydiff), which compares old and rewritten software on the same inputs, and [**WorldState**](https://github.com/YuvrajKashyap/worldstate), which gives a physical workspace persistent, searchable visual memory.
+
+## Experience
+
+**Incoming Software Engineering Intern · Base Power**
+
+Joining Base Power's engineering team.
+
+**Software Engineering Intern · Medceptor · Apr–Aug 2026**
+
+I shipped 14+ PRs for question-bank and exam workflows used by paying customers, helping expand the product into CNA/LPN exam preparation. My work covered question filtering, import validation, scoring, and review flows across Next.js, TypeScript, Django, and Postgres.
+
+**Undergraduate Researcher · UT Dallas · Oct 2025–present**
+
+I work on UAV and smart-city simulation, combining urban geometry with multi-agent path planning, visibility, occlusion, and sensing constraints.
+
+**Engineering Lead & Senior Consultant · Consult Your Community · Jan 2026–present**
+
+I translated Glydr's client requirements into a web-based gaming hub prototype and led the technical work from scoping through final handoff.
+
+**Software Research Assistant · NOVA Autonomous Driving · Sep 2023–Aug 2025**
+
+I built Python preprocessing pipelines that reduced a point cloud from 370,277 to 20,528 points while preserving its geometry. I also worked on sensor and I/O reliability across the vehicle's subsystems.
 
 | **0.8429 Recall@10** | **10,000 pages** | **11.2 FPS** | **370K → 20.5K points** |
 | :---: | :---: | :---: | :---: |
@@ -26,6 +48,14 @@ Right now, I'm building [**WorldState**](https://github.com/YuvrajKashyap/worlds
 </p>
 
 ## A few things I've built
+
+### [LegacyDiff](https://github.com/YuvrajKashyap/legacydiff) · Reviewing software rewrites
+
+LegacyDiff runs old and new implementations on the same inputs and shows exactly where their behavior differs. AI specialists help investigate the evidence; a reviewer chooses the intended behavior, approves a specific version, and exports acceptance checks. The local app includes 384 authored inputs across four synthetic scenarios, shared review state, and version-specific approvals.
+
+[Source and walkthrough](https://github.com/YuvrajKashyap/legacydiff) · [Architecture](https://github.com/YuvrajKashyap/legacydiff/blob/main/docs/ARCHITECTURE.md) · [Verification](https://github.com/YuvrajKashyap/legacydiff/blob/main/docs/VERIFICATION.md)
+
+`TypeScript` `React` `Python` `SpacetimeDB` `NVIDIA Nemotron`
 
 ### [Aletheia](https://github.com/YuvrajKashyap/aletheia) · Search infrastructure and retrieval evaluation
 
@@ -67,13 +97,6 @@ The release gate includes unit and API tests, client/server secret audits, and *
 
 `TypeScript` `Next.js` `Hono` `PostgreSQL` `Supabase` `Realtime` `MCP`
 
-## Experience
-
-- **Software Engineering Intern, Medceptor (Apr 2026 to Aug 2026)** I enabled CNA/LPN market expansion by shipping 14+ PRs for core question-bank and exam workflows used by paying, recurring users. I built question filtering, import validation, scoring, and review flows with Next.js, TypeScript, Django, and Supabase/Postgres.
-- **Undergraduate Researcher, UT Dallas:** I work on UAV and smart-city simulation across multi-agent path planning, urban geometry, occlusion, visibility, and sensing constraints.
-- **Software Research Assistant, NOVA Autonomous Driving** I built Python preprocessing pipelines that reduced point clouds from 370,277 to 20,528 points while preserving geometry, and debugged sensor and I/O reliability across vehicle subsystems.
-- **Engineering Lead & Senior Consultant, Consult Your Community** I built Glydr's web-based gaming hub prototype, translating client requirements into a working product and owning technical deliverables from scoping through final handoff.
-
 ## More of my work
 
 [Beyond Chat](https://github.com/YuvrajKashyap/Beyond-Chat) · [Answer Map](https://github.com/YuvrajKashyap/answer-map) · [Dallas 3D](https://github.com/YuvrajKashyap/dallas-3d-city-model) · [Axis](https://github.com/YuvrajKashyap/Axis) · [Capital case study](https://github.com/YuvrajKashyap/capital-case-study) · [Full project archive](https://yuvrajkashyap.com/#projects)
@@ -90,7 +113,7 @@ I also study finance and entrepreneurship. I played competitive tennis for most 
 
 ## Say hi
 
-I'm graduating in May 2027 and looking for software engineering roles. If you're working on search, AI infrastructure, developer tools, computer vision, or a product that needs someone comfortable moving across the stack, send me an email.
+I'm graduating in May 2027 and open to new-grad software engineering roles. If my work looks relevant to your team, I'd be happy to talk. You can reach me by email below.
 
 <div align="center">
 
