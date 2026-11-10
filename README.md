@@ -81,7 +81,9 @@ A reproducible RTX 4060 run reached **11.239 FPS** and **64.294 ms p50** end-to-
 
 ### [Sticky](https://github.com/YuvrajKashyap/sticky) · The task system I actually use
 
-Sticky handles my task capture, recurring work, reminders, calendar planning, realtime sync, and agent access. Browser writes go through a versioned Hono API, Postgres writes and outbox events commit together, and personal data stays behind owner-scoped row-level security. Because the production data is private, the repository ships with a sanitized local demo.
+I use Sticky every day to capture tasks, plan my calendar, and keep recurring work and reminders in order. Its MCP plugin gives agents built-in tools to find and organize tasks, manage subtasks and lists, schedule events, and update reminders directly in the app. Agents can read the current state and carry out workflows on my behalf through native tools.
+
+Browser writes go through a versioned Hono API, and task changes and outbox events commit together in Postgres. The public repository includes a sanitized local demo.
 
 The release gate includes unit and API tests, client/server secret audits, and **84 Playwright cases** across desktop and mobile.
 
@@ -89,11 +91,19 @@ The release gate includes unit and API tests, client/server secret audits, and *
 
 `TypeScript` `Next.js` `Hono` `PostgreSQL` `Supabase` `Realtime` `MCP`
 
+### [Capital](https://github.com/YuvrajKashyap/capital-case-study) · The financial tracker I use every day
+
+I built Capital to keep my accounts, spending, budgets, subscriptions, and net worth in one place. I use it daily to understand where my money is going and plan ahead. Its MCP plugin gives agents an extensive set of native tools to explore financial records, review cash flow, manage budgets and subscriptions, and maintain my financial tracking on my behalf.
+
+Like Sticky, Capital is built for both direct use and agent access, with tools for reading context and making authorized changes. The [public case study](https://github.com/YuvrajKashyap/capital-case-study) covers the product and architecture with synthetic screenshots; the application and my financial data stay private.
+
+[Product tour](https://github.com/YuvrajKashyap/capital-case-study/blob/main/docs/product-tour.md) · [Architecture](https://github.com/YuvrajKashyap/capital-case-study/blob/main/docs/architecture.md)
+
+`TypeScript` `Next.js` `React` `PostgreSQL` `Supabase` `Plaid` `MCP`
+
 ## More of my work
 
 [Beyond Chat](https://github.com/YuvrajKashyap/Beyond-Chat) · [Answer Map](https://github.com/YuvrajKashyap/answer-map) · [Dallas 3D](https://github.com/YuvrajKashyap/dallas-3d-city-model) · [Axis](https://github.com/YuvrajKashyap/Axis) · [Capital case study](https://github.com/YuvrajKashyap/capital-case-study) · [Full project archive](https://yuvrajkashyap.com/#projects)
-
-Try the [Beyond Chat live prototype](https://beyond-chat-production.vercel.app/). Early access is limited while the product is being rebuilt.
 
 ## What I work with
 
