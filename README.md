@@ -6,7 +6,7 @@
 
 Computer Science at UT Dallas · graduating May 2027 · Dallas, Texas
 
-**Incoming Software Engineering Intern at Base Power · Open to new-grad SWE roles**
+**Incoming SWE Intern @ Base Power · Open to new-grad SWE roles**
 
 [**Portfolio**](https://yuvrajkashyap.com) · [**Resume**](https://yuvrajkashyap.com/media/resume/yuvraj-kashyap-resume.pdf) · [**LinkedIn**](https://www.linkedin.com/in/yuvraj-kashyap) · [**Email**](mailto:ykyuvrajkashyap@gmail.com)
 
